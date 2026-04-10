@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mon portfolio</title>
-    <link rel="stylesheet" href="image/CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
 </head>
 <body>
@@ -18,12 +18,46 @@
                 <li><a href="projets.html">projets</a></li>
                 <li><a href="passions.html">passions</a></li>
                 <li><a href="divertissement.html">Divertissement</a></li>
-                <li><a href="contact.html"class="active graciella">contact</a></li>
+                <li><a href="contact.html" class="active">contact</a></li>
             </ul>
         </nav>
     </header>
   <main>
-    <h1>contactez-nous</h1>
+    <section class="contact-container">
+        <h2>Contactez-moi</h2>
+        <p class="contact-intro">Je suis basé à <strong>Lubumbashi</strong>. N'hésitez pas à me joindre pour vos projets ou collaborations.</p>
+
+        <div class="contact-grid">
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="tel">Téléphone</label>
+                    <input type="tel" id="tel" name="tel" placeholder="Votre numéro de téléphone" required>
+                </div>
+                <button type="submit" class="btn-submit">Envoyer</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Coordonnées</h3>
+                <div class="info-item">
+                    <p><strong>Ville :</strong> Lubumbashi, RDC</p>
+                </div>
+                <div class="info-item">
+                    <p><strong>Téléphone :</strong> 0980802587</p>
+                </div>
+                <div class="social-apps">
+                    <p>Disponible aussi sur :</p>
+                    <div class="apps-links">
+                        <span class="badge whatsapp">WhatsApp</span>
+                        <span class="badge telegram">Telegram</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
   </main>
 <footer>
     <p>&copy; 2026 Gracia. Tous droits réservés.</p>
